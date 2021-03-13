@@ -117,6 +117,8 @@ To our Strive mentors:
 - Luis
 - Stefano
 - Tatiana
+- Ubeyt
+- Riccardo
 
 #### 📝 License
 
