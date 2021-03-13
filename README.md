@@ -6,7 +6,8 @@
 #### Spotify V2
 
 > Our first build week project - a clone of the Spotify Web App.
-<img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
+![image](https://user-images.githubusercontent.com/65465380/111052084-dd004f80-844f-11eb-9c40-4997c2e9603e.png)
+
 
 > Each team member took ownership of building a specific page and also in developing beskpoke dynamic interactivity.
 
