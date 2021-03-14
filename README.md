@@ -3,7 +3,7 @@
 </div>
 <br>
 
-#### Spotify V2
+#### Spotify V2 - [Live demo](https://spotify-v2.netlify.app/)
 
 > Rebuild of our first buildweek project - This is a version 2 clone of the Spotify Web App.
 <br>
@@ -11,10 +11,6 @@
 ![image](https://user-images.githubusercontent.com/65465380/111052084-dd004f80-844f-11eb-9c40-4997c2e9603e.png)
 
 > Each contributor will take ownership of any claimed issues and feature enhancements on the github project board submitting deliverables as to the highest standard possible.
-
-#### Site
-
-> [Spotify V2 - live demo](https://spotify-v2.netlify.app/)
 
 #### Stack
 
