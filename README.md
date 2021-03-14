@@ -3,6 +3,8 @@
 </div>
 <br>
 
+<img src="https://github.com/skopsap/spotifyv2/blob/develop/images/stat.svg" alt="Waka stats for develop branch"/>
+
 #### Spotify V2
 
 > Rebuild of our first buildweek project - This is a version 2 clone of the Spotify Web App.
