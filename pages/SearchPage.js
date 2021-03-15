@@ -16,11 +16,11 @@ export default async function SearchPage({ user }, path) {
   const resp2 = await fetch('https://striveschool-api.herokuapp.com/api/deezer/artist/414/albums')
   const [data1, data2] = await Promise.all([resp1.json(), resp2.json()])
 
-  const onElementDidMount = (async () => {
+  const searchInputDidMount = (async () => {
     const element = await _waitForElement(`#search-input`)
 
     let timer
-    const timeoutVal = 1000
+    const timeoutVal = 500
 
     element.addEventListener('keypress', handleKeyPress)
     element.addEventListener('keyup', handleKeyUp)
@@ -39,11 +39,12 @@ export default async function SearchPage({ user }, path) {
           .then((res) => res.json())
           .then(({ data }) => {
             const albums = data.map((res) => res.album)
+            const artists = data.map((res) => res.artist)
             console.log(albums)
             const filtered = document.getElementById('filtered')
-            console.log(filtered)
             filtered.innerHTML = `
-            ${Section('Artist', albums)}
+            ${Section('Artist', artists)}
+            ${Section('Album', albums)}
             `
           })
       }, timeoutVal)

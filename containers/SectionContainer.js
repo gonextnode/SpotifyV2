@@ -4,13 +4,13 @@ function Section(title, data) {
   // make more cards
   function cardList() {
     return `
-      ${data.map((data) => `${Card(data)}`).join('')}
+      ${data.map((data) => `${Card(data.title, data.name, data.cover_medium, data.picture_medium)}`).join('')}
     `
   }
 
   return /*html*/ `
     <section class="mt-3">
-      <h2 class="text-white mb-3">${title}</h2>
+      <h3 class="text-white mb-3">${title}</h3>
       <div class="row flex-nowrap">
         ${cardList()}
       </div>
