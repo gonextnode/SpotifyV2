@@ -10,13 +10,13 @@
 
 ![image](https://user-images.githubusercontent.com/65465380/111052084-dd004f80-844f-11eb-9c40-4997c2e9603e.png)
 
-> Each contributor will take ownership of any claimed issues and feature enhancements on the github project board submitting deliverables as to the highest standard possible.
+> All contributors have taken ownership of multiple critical issues and feature enhancements listed on the project boards submitting commits of at the highest standard possible.
 
 #### Stack
 
 > Tools, libraries and awesome tech sanctioned for this project
 
-- Major languages - HTML, CSS, Javascript(ES6)
+- Major languages - HTML, SCSS, Javascript(ES6)
 - Frameworks - BootstrapV5
 - Technologies - Netlify Hosting & CDN
 - Infrastructure - Github CICD
@@ -59,11 +59,13 @@ Git clone the repository to your local computer, use LiveServer to view in devel
 
 #### Prerequisites
 
-Visual Studio Code and LiveServer plugin for serving the index.html file in your local browser.
+- Visual Studio Code (recommended)
+- SASS live compiler plugin for vs code to compile scss files.
+- LiveServer plugin for serving the index.html file in your local browser.
 
 #### Deployment
 
-Our 'Main' deployment branch is CI into netlify so any pushes to the main branch will auto publish to Netlify hosting and edge CDN.
+Our 'main' deployment branch is CI into Netlify so any pushes to the main branch will auto publish to Netlify hosting and thier edge CDN.
 
 #### Team
 
