@@ -1,10 +1,9 @@
-name: WakaTime status update 
+name: WakaTime status update
 
 on:
   push:
     branches:
-    - main
-    - develop
+      - main
   schedule:
     # Runs at 12 am  '0 0 * * *'  UTC
     - cron: '1 0 * * *'
@@ -24,6 +23,6 @@ jobs:
           # Automatic github token
           GITHUB_TOKEN: ${{ github.token }}
           # Branch - newer GitHub repositories have "main" as default branch, change to main in that case, default is master
-          BRANCH: "develop"
+          BRANCH: 'develop'
           # Manual Commit messages - write your own messages here
-          COMMIT_MSG: "Automated Coding Activity Update :alien:"
+          COMMIT_MSG: 'Automated Coding Activity Update :alien:'
