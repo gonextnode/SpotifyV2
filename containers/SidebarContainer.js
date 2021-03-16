@@ -9,7 +9,6 @@ function Sidebar() {
   return /*html*/ `
     <div style="min-height: 100%; background-color: black; width: 250px">
       <div class="d-flex flex-column">
-
         ${Logo(logoURL, 'spotifyLogo')}
         ${NavLinks()}
       </div>
