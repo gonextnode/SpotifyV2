@@ -563,7 +563,6 @@ nav a:hover {
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-  margin-bottom: 1rem;
 }
 
 main {
@@ -571,8 +570,7 @@ main {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(42%, #121212), to(rgba(77, 15, 28, 0.97)));
   background: linear-gradient(0deg, #121212 42%, rgba(77, 15, 28, 0.97) 100%);
   min-width: 100vw;
-  min-height: 100vh;
-  padding: 2rem !important;
+  height: 95vh;
 }
 
 input:focus {
@@ -593,14 +591,6 @@ footer {
   width: 100%;
   background-color: #272626;
   color: #fff;
-}
-
-footer input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  border-radius: 50%;
-  height: 12px;
-  width: 12px;
-  background-color: white;
 }
 
 .truncate {
